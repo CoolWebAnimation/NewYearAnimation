@@ -635,15 +635,15 @@ body {
 }
 body .inner {
   position: relative;
-  width: 600px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
 }
 body .inner svg {
   position: absolute;
   z-index: 1;
 }
 body .inner .greeting {
-  width: 600px;
+  width: 350px;
   margin: auto;
 }
 body .inner .greeting svg.newyear1 {
@@ -730,77 +730,7 @@ body .inner .greeting svg.shine .shineAnim {
     stroke-dashoffset: 0;
   }
 }
-body .inner .circles .circle-l {
-  height: 30px;
-  width: 30px;
-}
-body .inner .circles .circle-s {
-  height: 12px;
-  width: 12px;
-}
-body .inner .circles .circle-l,
-body .inner .circles .circle-s {
-  background-color: #c6ba9b;
-  border-radius: 50%;
-  position: absolute;
-  animation: scale 0.5s forwards ease-out;
-  animation-iteration-count: 3;
-  opacity: 0;
-}
-body .inner .circles .circle-l:nth-of-type(1),
-body .inner .circles .circle-s:nth-of-type(1) {
-  left: 9%;
-  top: 2%;
-  animation-delay: 6s;
-}
-body .inner .circles .circle-l:nth-of-type(2),
-body .inner .circles .circle-s:nth-of-type(2) {
-  right: 10%;
-  top: 10%;
-  animation-delay: 6.2s;
-}
-body .inner .circles .circle-l:nth-of-type(3),
-body .inner .circles .circle-s:nth-of-type(3) {
-  left: 1%;
-  top: 80%;
-  animation-delay: 6.4s;
-}
-body .inner .circles .circle-l:nth-of-type(4),
-body .inner .circles .circle-s:nth-of-type(4) {
-  right: 30%;
-  top: 95%;
-  animation-delay: 6.7s;
-}
-body .inner .circles .circle-l:nth-of-type(5),
-body .inner .circles .circle-s:nth-of-type(5) {
-  right: 35%;
-  top: 22%;
-  animation-delay: 6.8s;
-}
-body .inner .circles .circle-l:nth-of-type(6),
-body .inner .circles .circle-s:nth-of-type(6) {
-  left: 16%;
-  top: 55%;
-  animation-delay: 7.1s;
-}
-body .inner .circles .circle-l:nth-of-type(7),
-body .inner .circles .circle-s:nth-of-type(7) {
-  left: 27%;
-  top: 16%;
-  animation-delay: 6.7s;
-}
-body .inner .circles .circle-l:nth-of-type(8),
-body .inner .circles .circle-s:nth-of-type(8) {
-  right: 5%;
-  bottom: 24%;
-  animation-delay: 6.5s;
-}
-body .inner .circles .circle-l:nth-of-type(9),
-body .inner .circles .circle-s:nth-of-type(9) {
-  left: 25%;
-  bottom: 2%;
-  animation-delay: 6.3s;
-}
+
 @keyframes scale {
   0% {
     opacity: 0;
